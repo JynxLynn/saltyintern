@@ -1,7 +1,15 @@
 body {
     background-image: url("../img/Valenberg.gif");
+    /*Valenberg from DeviantArt is the Source for the gif.*/
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
     background-size: cover;
+}
+
+.text {
+	width: 800px;
+	height: 300px;
+	background-color: rgba(180,219,255,0.3);
+	text-align: center;
 }
