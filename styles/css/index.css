@@ -60,5 +60,34 @@ body {
     letter-spacing: 0.1em;
 }
 
+.content {
+    height: 1200px;
+}
 
+.downUnder {
+    height: 200px;
+    background-image: url("../img/Valenberg.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
 
+.copyright {
+    position: relative;
+    top: 20%;
+    padding:  0.2em 0.5em;
+    border: #FFF solid 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.totalFoot {
+    position: relative;
+    top: 60px;
+    background: rgba(22, 38, 64, .6);
+    height: 100px;
+}
