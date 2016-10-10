@@ -1,39 +1,70 @@
-/*body {
+    /*Valenberg from DeviantArt is the Source for the gif.*/
+
+
+.pixelHead {
+    height: 450px;
     background-image: url("../img/Valenberg.gif");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    background-size: cover; 
+}
+
+.colorHead {
+    position: relative;
+    top: 100px;
+    background: rgba(22, 38, 64, .6);
+    height: 250px;
+}
+
+.site {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.internship {
+    display: inline-block;
+    padding:  0.2em 0.5em;
+    border: #FFF solid 10px;
+}
+
+.kicker {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+
+              /*  Fixed image ~~~~~~~~~~~~~~~~~*/
+
+/*.pixelDudes {
+    position: relative;
+    height: 800px;
+    width: auto;
+    background-image: url("../img/Valenberg.gif");
+    background-repeat: no-repeat;
+    background-position: top center; 
     background-attachment: fixed;
-    background-size: cover;
-}
-
-.container {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-	background-color: rgba(180,219,255,0.6);
-	text-align: center;
-    color: #3B3D40;
-    vertical-align: bottom;
-}
-
-.text {
-    font-size: 6em;
-}
-
-.title {
-    font-size: 3em;
+    background-size: contain;
+    background-attachment: fixed;
 }*/
 
-h1 {
-    color: #66bbdd;
-    font-weight: 300;
-}
 
-.content {
-    height: 2000px;
-    padding: 100px;
-    text-align: center;
-}
 
-    /*Valenberg from DeviantArt is the Source for the gif.*/
