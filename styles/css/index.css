@@ -88,6 +88,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    color: #453671;
 }
 
 .nextPage {
@@ -105,9 +106,9 @@ body {
 }
 
 .nextClick {
-    border: #C654CE solid 10px; 
+    border: #453671 solid 10px; 
     border-radius: 50%;
-    background-color: #C654CE;
+    background-color: #453671;
     color: #FFF;
     font-size: 20px;
     letter-spacing: 5px;
@@ -140,10 +141,10 @@ body {
 }
 
 .ch-grid li {
-    width: 220px;
-    height: 220px;
+    width: 350px;
+    height: 350px;
     display: inline-block;
-    margin: 20px;
+    margin: 100px;
 }
 
 .ch-item {
@@ -193,7 +194,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 45px;
     margin: 0 30px;
     padding: 45px 0 0 0;
     height: 140px;
@@ -205,10 +206,10 @@ body {
 
 .ch-info p {
     color: #fff;
-    padding: 10px 5px;
+    padding: 20px 5px;
     font-style: italic;
     margin: 0 30px;
-    font-size: 12px;
+    font-size: 30px;
     border-top: 1px solid rgba(255,255,255,0.5);
     opacity: 0;
     transition: all 1s ease-in-out 0.4s;
@@ -428,14 +429,11 @@ xtype
 }
 
 .info {
-    font-size: 24px;
+    font-size: 45px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
 }
-
-
-
 
 .totalFoot {
     position: relative;

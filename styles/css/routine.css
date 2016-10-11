@@ -1,12 +1,15 @@
 			/*Art by kirokaze from Deviantart */
 body {
 	background-color: #CCC2B4 !important;
-	height: 2500px;
+	font-family: 'MedievalSharp', cursive !important;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: #FFF solid 25px;
 }
 
 .windowBox {
 	text-align: center;
-	margin: 50px 0 50px 0;
+	margin: 50px 0 25px 0;
 }
 
 .window {
@@ -18,6 +21,19 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 50%;
+}
+
+.textInfo {
+	text-align: center;
+}
+
+.titleText {
+	display: inline-block;
+	color: #5B332C;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding: 50px;
+	border: #5B332C double 25px;
 }
 
 		/*			start more circles*/
@@ -41,10 +57,10 @@ body {
 }
 
 .ch-grid li {
-	width: 260px;
-	height: 260px;
+	width: 300px;
+	height: 300px;
 	display: inline-block;
-	margin: 20px;
+	margin: 100px;
 }
 
 .ch-item {
@@ -58,8 +74,8 @@ body {
 
 .ch-info-wrap{
 	position: absolute;
-	width: 220px;
-	height: 220px;
+	width: 260px;
+	height: 260px;
 	border-radius: 50%;
 	perspective: 800px;
 	transition: all 0.4s ease-in-out;
@@ -73,8 +89,8 @@ body {
 
 .ch-info{
 	position: absolute;
-	width: 220px;
-	height: 220px;
+	width: 260px;
+	height: 260px;
 	border-radius: 50%;
 	transition: all 0.4s ease-in-out;
 	transform-style: preserve-3d;
@@ -118,7 +134,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 14px;
+	font-size: 40px;
 	margin: 0 15px;
 	padding: 40px 0 0 0;
 	height: 90px;
@@ -133,8 +149,9 @@ body {
 	padding: 10px 5px;
 	font-style: italic;
 	margin: 0 30px;
-	font-size: 12px;
+	font-size: 25px;
 	border-top: 1px solid rgba(255,241,228,0.5);
+	text-transform: uppercase;
 }
 
 .ch-info p a {
@@ -181,8 +198,8 @@ body {
 .goals {
 	display: inline-block;
 	width: 100%;
-	height: 500px;
-	background-image: url("../img/dnd.gif");
+	height: 405px;
+	background-image: url("../img/battle.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
