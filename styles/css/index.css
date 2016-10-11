@@ -90,6 +90,32 @@ body {
     letter-spacing: 0.1em;
 }
 
+.nextPage {
+        text-align: center;
+}
+
+.nextClick a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nextClick a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nextClick {
+    border: #C654CE solid 10px; 
+    border-radius: 50%;
+    background-color: #C654CE;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
 
                             /*Start CIRCLES*/
 
