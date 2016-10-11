@@ -85,7 +85,7 @@ body {
 .titleText {
     font-size: 50px;
     font-weight: 700;
-    color: rgba(22, 38, 64);
+    color: #C654CE;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -223,12 +223,18 @@ body {
 
                             /*CIRCLES*/
 
+
+.meme {
+    color: #C654CE;
+}
+
 .info {
     font-size: 24px;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
+
+
 
 
 .totalFoot {
