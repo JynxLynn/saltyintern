@@ -255,7 +255,6 @@ body {
 
 .cd-intro {
   width: 90%;
-  max-width: 768px;
   text-align: center;
 }
 
@@ -296,6 +295,7 @@ body {
 }
 .cd-words-wrapper b {
   display: inline-block;
+  padding-right: 10px;
   position: absolute;
   white-space: nowrap;
   left: 0;
