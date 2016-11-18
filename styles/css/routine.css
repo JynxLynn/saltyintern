@@ -36,7 +36,25 @@ body {
 	border: #5B332C double 25px;
 }
 
-		/*			start more circles*/
+		/*					WEEKDAYS START					*/
+.weekdays {
+	text-align: center;
+	padding-top: 150px;
+}
+
+.days {
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+
+
+
+		/*					WEEKDAYS START					*/
+
+
+
+		/*			start more circles						*/
 .ch-grid {
 	margin: 20px 0 0 0;
 	padding: 0;
@@ -221,7 +239,7 @@ body {
 }
 
 
-				/*start fast image thing*/
+							/*start fast image thing*/
 
 
 
