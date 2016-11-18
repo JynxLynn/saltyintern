@@ -47,6 +47,11 @@ body {
 	letter-spacing: 10px;
 }
 
+.weekdaysFriday {
+	text-align: center;
+	padding-top: 50px;
+}
+
 
 
 
@@ -144,6 +149,25 @@ body {
 
 .ch-img-3 { 
 	background-image: url("../img/bard.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ch-img-4 { 
+	background-image: url("../img/dragon.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ch-img-5 { 
+	background-image: url("../img/town.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.ch-img-6 { 
+	background-image: url("../img/orc.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
